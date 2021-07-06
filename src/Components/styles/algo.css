@@ -1,0 +1,159 @@
+body{
+    box-sizing: border-box;
+    background: white;
+    margin: 0;   
+    height: 100%; 
+    display: flex;
+    justify-content: center;
+    font-family: Graphik, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    }
+
+.line{  border-bottom: 1px solid rgb(236, 239, 241) }
+    
+
+.algo-wallet-container{
+
+    margin: 40px auto;
+    width: 300px;
+    height: 450px;
+
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+.offline{     background: rgb(218, 25, 25)   }
+.online {     background: rgb(61, 203, 61)   }
+
+.trade{ color: rgba(28, 164, 28, 0.988) }
+.notrade{ color: rgb(218, 25, 25) }
+
+
+.small{ font-size: 14px; }
+
+
+.heartbeat{
+    margin-left: 10px;
+    /* padding: 1px; */
+    color: white;
+    width: 60px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 10px;
+
+    height: 2px;
+    padding: 10px;
+    margin-left: 35% ;
+}
+
+.flex-row{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    text-align: center;
+    width: 100%;
+}
+
+.flex-right{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.justfied{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-wrap{
+    display: flex;
+    justify-content: flex-end;  
+    width: 75%;
+}
+
+.price-box-wrap{
+    height: 280px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    }
+
+.price-box-wrap{
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.big-price{
+    font-weight: 400;
+    font-size: 52px;
+    color: rgba(17, 51, 83, 0.7)
+    }
+    
+.big-symbol{
+    font-weight: 500;
+    color: rgba(17, 51, 83, 0.3);
+    font-size: 31px;
+}
+
+.info-wrap{
+    margin: 20px;
+    height: 200px;
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    }
+
+.info-box, .zoom{
+    display: flex;
+    flex-direction: column;
+    line-height: 2.0;
+    margin: 10px;
+    transition: scale 0.5s linear;
+    transition: all 0.4s;
+    }
+
+.zoom{
+    transform: scale(0.0);
+    }
+    
+.price-target{
+    font-size: 14px;
+    color: rgba(17, 51, 83, 0.8);
+    }
+
+.bottom-box{
+    display: flex;
+    width: 100%;
+    }
+    
+.buy-button{
+    width: 100%;
+    border-radius: 4px;
+    color: rgb(255, 255, 255);
+    padding: 22px;
+
+    background-color: rgb(22, 82, 240);
+    text-align: center;
+    }
+
+ .arrow-button{ 
+
+    outline: none;
+    border-radius: 10px;
+
+    margin: 2px;
+    margin-bottom: 14px;
+ 
+    font-size: 13px;
+  
+    color: rgb(255, 255, 255);
+    border: 3px solid rgb(22, 82, 240);
+    background-color: rgb(22, 82, 240)
+    } 
+
+

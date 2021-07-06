@@ -1,0 +1,62 @@
+
+table{  
+  font-size: 15px;
+  width: 100%;
+  overflow-x: scroll;
+  text-align: center;
+  }
+
+td, th {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  }
+
+.tables-wrapper{
+    color: whitesmoke;
+    height: 300px;
+    width: 300px;
+     }
+     
+.table-orders{
+  width: 300px;
+  font-size: 9px;
+  line-height: 2.0;
+  overflow-x:auto;
+ }
+
+.table-wallets{
+   font-size: 12px;
+   width: 300px;
+   }
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+.a-btn:hover{
+    background: whitesmoke;
+    color: green 
+    }
+
+.bottom-inner{
+    height: 60px;
+    width: 100%;
+    }
+
+.hide{  display: none; }
+
+.open-animate{
+  position: absolute;
+  top: 352px;
+  transition: all 0.5s;
+  z-index: 0 ;
+}
+
+.closed-animate{
+  position: absolute;
+  top: 470px;
+  transition: all 0.5s;
+  z-index: -1;
+
+  transform: scale(0.0);
+}
+
